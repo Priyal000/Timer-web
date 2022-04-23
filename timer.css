@@ -1,0 +1,32 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+       font-family: 'Press Start 2P', cursive;
+}
+h2{
+       font-size: 5rem;
+       font-weight: bold;
+       font-family: 'Fredericka the Great', cursive;
+       padding: 3rem;
+}
+.timer{
+       min-height: 100vh;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       justify-content: center;
+}
+.countdown{
+       display: flex;
+       justify-content: space-around;
+       text-align: center;
+}
+.days,.hour,.min,.sec{
+       font-size: 3rem;
+}
+.waiting{
+       height: 50vh;
+}

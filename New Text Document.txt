@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="3d.css">
+       <title>apple</title>
+
+</head>
+
+<body>
+       <div class="container">
+              <div class="card">
+                     <div class="phone">
+                            <div class="circle"></div>
+                     <img src="i phone.png" alt="i phone">
+                     </div>
+                     <div class="info">
+                            <h1 class="title">I Phone 5</h1>
+                            <h3>this is an iphone from which you can show off</h3>
+                            <div class="color">
+                                   <button>black</button>
+                                   <button>silver</button>
+                                   <button class="active">grey</button>
+                                   <button>rose gold</button>
+                            </div><br><BR><br>
+                            <div class="purchase">
+                                   <button>purchase</button>
+                            </div>
+                     </div>
+              </div>
+       </div>
+       <script src="3d.js"></script>
+</body>
+
+</html>
